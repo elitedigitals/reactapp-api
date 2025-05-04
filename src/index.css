@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+.container{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center; 
+  align-content: center;
+
+}
+
+.card-section{
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  margin-top: 50px;
+}
+.card-section a{
+  text-decoration: none;
+}
+
+.card{
+  width: 250px;
+  height: 200px;
+  border: 1px solid rgb(51, 45, 45);
+  padding: 0px 10px 10px 10px;
+  margin: 5px 5px;
+  border-radius: 5px;
+  /* background-color: aliceblue; */
+}
+
+.title-text{
+  display: block;
+  font-weight: 600;
+  font-size: 18px;
+  color: palevioletred;
+  text-transform: uppercase;
+}
+.body-text{
+  font-weight: 200;
+  font-size: 14px;
+  color: black;
+}
+
+.loading{
+  color: red;
+  font-size: large;
+  border-radius: 5px;
+  background-color: white;
+  text-align: center;
+  align-content: center;
+  text-decoration: underline;
+  margin-top: 200px;
+}
+
+.narvbar{
+  background-color: antiquewhite;
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 20px;
+  
+}
+.narvbar a{
+  text-decoration: none;
+}
+
+.blog-details{
+  text-align: center;
+  margin-top: 30px;
+  /* width: 800px; */
+  background-color: aliceblue;
+  padding: 5px 10px;
+}
+.create{
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label{
+  text-align: left;
+  display: block;
+}
+.create h2{
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+
+.create input, .create textarea {
+  background-color: #fff;
+  color: #000;
+  border: 1;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 5px;
+
+}
+.create button{
+  display: block;
+  background-color: #f1356d;
+  padding: 10px 15px;
+  border: 0;
+  color: white;
+  border-radius: 5px;
+}
